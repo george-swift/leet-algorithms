@@ -1,1 +1,2 @@
-# leet-algorithms
+# Leetcode Algorithms
+Comprehensive solutions in Ruby

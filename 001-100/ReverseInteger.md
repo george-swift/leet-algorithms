@@ -32,7 +32,7 @@ def reverse(x)
   max_bit = 2**31
   min_bit = -2**31
   reversed_int = x.to_s.reverse.to_i * sign
-  reversed_int.between?(max_bit, min_bit) ? reversed_int : 0
+  reversed_int.between?(min_bit, max_bit) ? reversed_int : 0
 end
 
 ```
